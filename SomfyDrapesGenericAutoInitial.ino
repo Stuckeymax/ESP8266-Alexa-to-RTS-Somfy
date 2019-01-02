@@ -16,8 +16,8 @@ void turnOffRelay();
 void sendRelayState();
 //void drapeSync();
 
-const char* ssid = "Steinway7";
-const char* password = "CelticCruzan2014";
+const char* ssid = "yourSSID";
+const char* password = "yourwifiPassword";
 String friendlyName = "Drapes"; // Alexa device name; if "drapes," Alexa recognizes Open drapes and close drapes as well as turn on drapes (open), turn off drapes (close)
 
 unsigned int localPort = 1900;      // local port to listen on
