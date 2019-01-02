@@ -14,7 +14,7 @@ void startHttpServer();
 void turnOnRelay();
 void turnOffRelay();
 void sendRelayState();
-//void drapeSync();
+void drapeSync();
 
 const char* ssid = "yourSSID";
 const char* password = "yourwifiPassword";
